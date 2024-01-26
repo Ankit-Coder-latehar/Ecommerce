@@ -3,7 +3,7 @@ import { Dialog, Transition } from '@headlessui/react';
 import { ExclamationTriangleIcon } from '@heroicons/react/24/outline';
 
 export default function Modal({title,message,dangerOption,cancelOption, dangerAction, cancelAction, showModal }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(false);  //use of react-hooks
 
   const cancelButtonRef = useRef(null);
 
