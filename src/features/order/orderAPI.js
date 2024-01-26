@@ -5,7 +5,7 @@ export function createOrder(order) {
       body: JSON.stringify(order),
       headers: { 'content-type': 'application/json' },
     });
-    const data = await response.json();
+    const data = await response.json();  //to get response
     resolve({ data });
   });
 }
