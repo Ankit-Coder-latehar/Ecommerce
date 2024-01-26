@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
 
 import { selectLoggedInUser, createUserAsync } from '../authSlice';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'; //using react-router-dom
 import { Navigate } from 'react-router-dom';
 
 export default function Signup() {
