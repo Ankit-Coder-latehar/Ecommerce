@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { StarIcon } from '@heroicons/react/20/solid';
+import { StarIcon } from '@heroicons/react/20/solid'; //using heroicons
 import { RadioGroup } from '@headlessui/react';
 import { useDispatch, useSelector } from 'react-redux';
 import {
