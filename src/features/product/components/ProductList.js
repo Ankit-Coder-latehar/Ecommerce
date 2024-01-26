@@ -1,5 +1,5 @@
 import React, { useState, Fragment, useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux'; //use of react-redux
 import {
   fetchBrandsAsync,
   fetchCategoriesAsync,
