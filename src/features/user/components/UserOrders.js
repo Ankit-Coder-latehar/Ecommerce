@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux'; //use of react-redux
 import {
   fetchLoggedInUserOrderAsync,
   selectUserInfo,
