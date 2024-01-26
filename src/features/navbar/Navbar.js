@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { Disclosure, Menu, Transition } from '@headlessui/react';
+import { Disclosure, Menu, Transition } from '@headlessui/react'; //use of headlessui
 import {
   Bars3Icon,
   ShoppingCartIcon,
