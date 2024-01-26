@@ -6,7 +6,7 @@ export function createUser(userData) {
       body: JSON.stringify(userData),
       headers: { 'content-type': 'application/json' },
     });
-    const data = await response.json();
+    const data = await response.json();   // to get response 
     resolve({ data });
   });
 }
