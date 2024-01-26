@@ -31,7 +31,7 @@ const products = [
       "thumbnail": "https://i.dummyjson.com/data/products/2/thumbnail.jpg",
       "images": [
         "https://i.dummyjson.com/data/products/2/1.jpg",
-        "https://i.dummyjson.com/data/products/2/2.jpg",
+        "https://i.dummyjson.com/data/products/2/2.jpg",  //images
         "https://i.dummyjson.com/data/products/2/3.jpg",
         "https://i.dummyjson.com/data/products/2/thumbnail.jpg"
       ]
