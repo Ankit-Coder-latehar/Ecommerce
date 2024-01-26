@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { selectError, selectLoggedInUser } from '../authSlice';
 import { Link, Navigate } from 'react-router-dom';
 import { loginUserAsync } from '../authSlice';
-import { useForm } from 'react-hook-form';
+import { useForm } from 'react-hook-form'; //using react hook form
 
 export default function Login() {
   const dispatch = useDispatch();
