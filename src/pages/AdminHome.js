@@ -5,7 +5,7 @@ function AdminHome() {
     return ( 
         <div>
             <NavBar>
-                <AdminProductList></AdminProductList>
+                <AdminProductList></AdminProductList> //productlist
             </NavBar>
         </div>
      );
