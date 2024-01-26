@@ -5,4 +5,4 @@ function ForgotPasswordPage() {
     </div>  );
 }
 
-export default ForgotPasswordPage;
+export default ForgotPasswordPage; //forgot passward
