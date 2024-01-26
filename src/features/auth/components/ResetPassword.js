@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 import {useDispatch, useSelector} from 'react-redux';
-import { resetPasswordAsync, selectError, selectPasswordReset } from '../authSlice';
+import { resetPasswordAsync, selectError, selectPasswordReset } from '../authSlice';//using authslice
 
 export default function ResetPassword() {
 
