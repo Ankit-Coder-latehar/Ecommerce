@@ -33,7 +33,7 @@ export function updateProduct(update) {
     resolve({ data });
   });
 }
-
+//exporting
 export function fetchProductsByFilters(filter, sort, pagination, admin) {
   // filter = {"category":["smartphone","laptops"]}
   // sort = {_sort:"price",_order="desc"}
