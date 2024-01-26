@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { StarIcon } from '@heroicons/react/20/solid';
 import { RadioGroup } from '@headlessui/react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux'; //use of react-redux
 import {
   fetchProductByIdAsync,
   selectProductById,
