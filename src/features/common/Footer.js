@@ -37,7 +37,7 @@ function Footer() {
             <div className="order-1 md:order-2">
               <span className="px-2">About us</span>
               <span className="px-2 border-l">Contact us</span>
-              <span className="px-2 border-l">Privacy Policy</span>
+              <span className="px-2 border-l">Privacy Policy</span>  //last of the footer
             </div>
           </div>
         </div>
