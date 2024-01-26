@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux'; //using react-redux
 import {
   clearSelectedProduct,
   createProductAsync,
