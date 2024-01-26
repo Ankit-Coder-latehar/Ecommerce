@@ -1,4 +1,4 @@
-import AdminProductDetail from "../features/admin/components/AdminProductDetail";
+import AdminProductDetail from "../features/admin/components/AdminProductDetail"; //productdetails
 import NavBar from "../features/navbar/Navbar";
 function AdminProductDetailPage() {
     return ( 
