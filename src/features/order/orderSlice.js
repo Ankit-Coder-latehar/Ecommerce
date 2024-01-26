@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { createOrder, fetchAllOrders,updateOrder } from './orderAPI';
+import { createOrder, fetchAllOrders,updateOrder } from './orderAPI'; //use of orderApi
 
 const initialState = {
   orders: [],
