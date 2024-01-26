@@ -1,4 +1,4 @@
-export function fetchLoggedInUserOrders() {
+export function fetchLoggedInUserOrders() {  //use of function
   return new Promise(async (resolve) =>{
     const response = await fetch('/orders/own/') 
     const data = await response.json()
