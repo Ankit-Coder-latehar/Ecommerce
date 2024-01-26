@@ -1,4 +1,4 @@
-import ResetPassword from "../features/auth/components/ResetPassword";
+import ResetPassword from "../features/auth/components/ResetPassword"; //reaset passward
 
 function ResetPasswordPage() {
     return ( <div>
